@@ -9,9 +9,9 @@
     height: 100%; /* Equivalent to h-full */
 }
 
- /**
- * Home Page
- */
+/**
+* Home Page
+*/
 
  /* Container for the whole page */
 .home-container {
@@ -93,9 +93,9 @@
 }
 
 
- /**
-  * Header
-  */
+/**
+* Header
+*/
 
 /* General Header Styling */
 .site-header {
@@ -209,9 +209,9 @@
 
 
 
- /**
-  * Footer
-  */
+/**
+* Footer
+*/
 
 /* Predefined CSS */
 .site-footer {
@@ -357,9 +357,9 @@
     }
 }
 
- /**
-  * Members
-  */
+/**
+* Members
+*/
 
 /* General Styles for the Page */
 .page-container {
@@ -451,9 +451,9 @@
     }
 }
 
- /**
-  * Publications
-  */
+/**
+* Publications
+*/
 
 /* Spacer equivalent for h-10 */
 .spacer {
@@ -546,9 +546,9 @@
     background-color: #0056b3; /* darken on hover */
 }
 
- /**
-  * News
-  */
+/**
+* News
+*/
 
 /* Section Title */
 .news-section-title {
@@ -588,4 +588,43 @@
 .news-bold {
     font-size: 1.0rem;
     font-weight: 400;
+}
+
+/**
+* 404
+*/
+
+.container-404 {
+    color: #333;
+    text-align: center;
+}
+
+.title-404 {
+    color: #333;
+    font-size: 5rem;
+}
+
+.emoji-404 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.message-404 {
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.return-btn-404 {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 15%;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+.return-btn-404:hover {
+    background-color: #333;
+    color: white;
 }
