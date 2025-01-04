@@ -1,0 +1,33 @@
+<footer style="background-color: #333; color: #fff;">
+    {%- assign general = site.data.general -%}
+    <div style="max-width: 1200px; margin: 10px auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+      <!-- About Section -->
+      <div style="flex: 1 1 300px;">
+        <h3 style="color: #00bcd4;">About Us</h3>
+        <p style="margin-bottom: 5px;">The {{ general.name.full }} {{ general.name.append }} aims at innovation and new scientific discoveries, via research and development.</p>
+      </div>
+      <!-- Contact Information -->
+      <div style="flex: 1 1 500px;">
+        <h3 style="color: #00bcd4;">Contact Us</h3>
+        <p style="margin-bottom: 5px;">Email: <a href="mailto:{{- general.contact.email -}}" style="color: #fff;">{{ general.contact.email }}</a></p>
+        <p style="margin-bottom: 5px;">Phone: {{ general.contact.phone }}</p>
+        <p style="margin-bottom: 5px;">
+          Address: {{ general.address.building }}, {{ general.address.street }}, {{ general.address.city }}, {{ general.address.country }}.
+          (<a href="{{ general.address.maps_link }}">Maps</a>)</p>
+      </div>
+      <!-- Social Media Links -->
+      <div style="flex: 1 1 300px;">
+        <h3 style="color: #00bcd4;">Follow Us</h3>
+        <div>
+          {% for link in general.social %}
+            <a href="{{- link[1] -}}" target="_blank" style="color: #fff;">{{ link[0] }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- Copyright Section -->
+    <div style="text-align: center; margin-bottom: 10px;">
+      <span>&copy; 2025 {{ general.name.title }}. Powered by <a href="https://jekyllrb.com/" style="color: white;">Jekyll</a>.</span>
+    </div>
+  </footer>
+  
