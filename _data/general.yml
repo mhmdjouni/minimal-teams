@@ -1,0 +1,31 @@
+name:
+  long: Scientific Research and Development
+  short: Scientific R&D
+  abbrv: SRD
+  lower: srd
+  full: Scientific Research and Development (SRD)
+  append: Group
+  title: SRD Group
+
+contact:
+  email: srd-group [at] example.com
+  phone: "+00 (XX) AA BB CC DD"
+
+address:
+  building: "Building X"
+  street: "Street S"
+  city: "0000 City C"
+  country: "Country"
+  maps_link: https://www.google.com/maps
+
+social:
+  GitHub: https://github.com/mhmdjouni
+
+images_dirs:
+  root: assets/images
+  icons: assets/images/icons
+  logos: assets/images/logos
+  profile_pictures: assets/images/profile_pictures
+
+logo_path: assets/images/logos/blank.jpg
+banner_path: assets/images/banner.jpg
