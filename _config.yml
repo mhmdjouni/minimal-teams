@@ -18,7 +18,7 @@ plugins:
 
 # Custom collections for customly organized and grouped pages
 collections:
-  pages:
+  pages_navbar:
     output: true
     permalink: /:name/
 
