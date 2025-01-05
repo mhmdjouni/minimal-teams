@@ -62,9 +62,9 @@ You can create a new repository based on Minimal Teams by clicking the **"Use th
 3. **Styling**:
     - Modify the CSS in `assets/css` for custom styles.
 4. **Adding Pages**:
-    - Create a new `.html` or `.md` file in the `_pages_navbar/` directory to have it show in the Navigation Bar.
-    - Otherwise, create a new **collection** for a group of pages (e.g., `publications`) in the `_config.yml` file and the associated folder (e.g., `_publications`). Check how `pages_navbar` is created and follow suite.
-    - - L
+    - For pages that you wish to add to the Navigation Bar, create a new `.html` or `.md` file in the `_pages_navbar/` directory.
+    - For pages that you do not wish to add to the Navigation bar, create a new **collection** (e.g., `publications`) in the `_config.yml` file and the associated folder (e.g., `_publications`), then create the pages inside said folder. For reference, refer to how `pages_navbar` is created and follow suite.
+    - Avoid creating pages in the `root/` directory. Try to always group them under a dedicated folder representing a theme or a `collection`.
 
 ---
 
