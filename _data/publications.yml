@@ -142,6 +142,10 @@ publications:
         icon: *ic-download
         link: /assets/publications/key4/file.bib
 
+      - type: Manuscript
+        icon: *ic-link
+        link: https://theses.hal.science/
+
       - type: PDF
         icon: *ic-book
         link: /assets/publications/key4/file.pdf
