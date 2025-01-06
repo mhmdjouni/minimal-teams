@@ -13,3 +13,6 @@ pages:
 
   - title: News
     permalink: /news/
+
+  - title: Guide
+    permalink: /guide/

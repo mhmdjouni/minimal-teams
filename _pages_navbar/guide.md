@@ -1,3 +1,9 @@
+---
+layout: page_padded
+title: Guide
+permalink: /guide/
+---
+
 # Minimal Teams
 
 ## About Minimal Teams
@@ -11,16 +17,12 @@
 
 Inspired partially by [Minima](https://github.com/jekyll/minima), Minimal Teams is designed for flexibility and simplicity, especially for users who need quick and intuitive management of site content.
 
----
-
 ## Features
 
 We tend to separate data, code, and design from each others as much as possible:
 - **Data-Centric Design**: Centralized data in `_data/` for easy updates.
 - **Modularity**: Add or remove features without affecting the template's core.
 - **Customizable Pages**: Ready to adapt for publications, team members, projects, news posts, and more.
-
----
 
 ## Getting Started
 
@@ -65,47 +67,6 @@ You can create a new repository based on Minimal Teams by clicking the **"Use th
     - For pages that you wish to add to the Navigation Bar, create a new `.html` or `.md` file in the `_pages_navbar/` directory, then add the page's info in `_data/navbar.yml`.
     - For pages that you do not wish to add to the Navigation bar, create a new **collection** (e.g., `publications`) in the `_config.yml` file and the associated folder (e.g., `_publications`), then create the pages inside said folder. For reference, refer to how `pages_navbar` is created and follow suite.
     - Avoid creating pages in the `root/` directory. Try to always group them under a dedicated folder representing a theme or a `collection`.
-
----
-
-## Contributing
-
-Contributions of all kinds are welcome! Here's how you can help:
-
-### 1. Reporting Issues
-- Found a bug or have a feature request? [Open an issue](https://github.com/mhmdjouni/minimal-teams/issues) with detailed information.
-
-### 2. Submitting Changes
-1. Fork the repository.
-2. Create a feature branch:
-    
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Commit your changes:
-    
-    ```bash
-    git commit -m "Add feature or fix description"
-    ```
-4. Push to your branch:
-    
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request against the `develop` branch.
-
-### 3. Writing Documentation
-Help improve the documentation in the `README.md` or add detailed guides for advanced users.
-
----
-
-## Roadmap
-
-Planned features include:
-- Default and customizable pages for individual items (e.g., publications, team members, blog).
-- Integration with popular Jekyll plugins for added functionality.
-
----
 
 ## License
 
