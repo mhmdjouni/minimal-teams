@@ -137,7 +137,7 @@
     color: black;
 }
 
-.profile-image {
+.logo-image {
     height: 48px;
     width: 48px;
     border-radius: 50%;
@@ -207,39 +207,50 @@
     }
 }
 
-
-
 /**
 * Footer
 */
 
 /* Predefined CSS */
-.site-footer {
-    border-top: 1px solid #e8e8e8;
-    padding: 30px 0;
+.footer {
+    background-color: #333;
+    color: #fff;
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: 15px;
+.footer-info {
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    gap: 1rem;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
+.footer-block-common {
+    padding: 0px 10px;
+}
+.footer-block-common h3 {
+    color: #00bcd4;
+    font-weight: 0;
+}
+.footer-block-common p {
+    margin-bottom: 5px;
 }
 
-.footer-col-wrapper {
-    font-size: 15px;
-    color: #828282;
-    margin-left: -15px;
+.footer-block-300px {
+    flex: 1 1 300px;
 }
 
-.footer-col {
-    float: left;
-    margin-bottom: 15px;
-    padding-left: 15px;
+.footer-block-auto {
+    flex: 1 1 auto;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-copyrights {
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid white;
 }
 
 .footer-col-1 {

@@ -1,5 +1,5 @@
 # Site settings
-# This is where the essential settings of the site are defined (for now).
+# This is where the essential settings of the site are defined.
 # Any other data or information is defined in the _data/ folder.
 # Any modification on this file requires building again (via jekyll build or jekyll serve).
 

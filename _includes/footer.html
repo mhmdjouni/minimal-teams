@@ -1,33 +1,53 @@
-<footer style="background-color: #333; color: #fff;">
+<footer class="footer">
     {%- assign general = site.data.general -%}
-    <div style="max-width: 1200px; margin: 10px auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <div class="footer-info">
       <!-- About Section -->
-      <div style="flex: 1 1 300px;">
-        <h3 style="color: #00bcd4;">About Us</h3>
-        <p style="margin-bottom: 5px;">The {{ general.name.full }} {{ general.name.append }} aims at innovation and new scientific discoveries, via research and development.</p>
+      <div class="footer-block-300px footer-block-common">
+        <h3>About Us</h3>
+        <p>The {{ general.name.full }} {{ general.name.append }} aims at innovation and new scientific discoveries, via research and development.</p>
       </div>
       <!-- Contact Information -->
-      <div style="flex: 1 1 500px;">
-        <h3 style="color: #00bcd4;">Contact Us</h3>
-        <p style="margin-bottom: 5px;">Email: <a href="mailto:{{- general.contact.email -}}" style="color: #fff;">{{ general.contact.email }}</a></p>
-        <p style="margin-bottom: 5px;">Phone: {{ general.contact.phone }}</p>
-        <p style="margin-bottom: 5px;">
-          Address: {{ general.address.building }}, {{ general.address.street }}, {{ general.address.city }}, {{ general.address.country }}.
-          (<a href="{{ general.address.maps_link }}">Maps</a>)</p>
+      <div class="footer-block-300px footer-block-common">
+        <h3>Access</h3>
+        <p>
+          Address:<br>
+          &emsp;{{ general.address.building }},<br>
+          &emsp;{{ general.address.street }},<br>
+          &emsp;{{ general.address.city }},<br>
+          &emsp;{{ general.address.country }}.
+          (<a href="{{ general.address.maps_link }}">Maps</a>)
+        </p>
+      </div>
+      <!-- Contact Information -->
+      <div class="footer-block-auto footer-block-common">
+        <h3>Contact Us</h3>
+        <p>
+          Email: <a href="mailto:{{- general.contact.email -}}" class="footer-link">{{ general.contact.email }}</a>
+        </p>
+        <p>
+          Phone: {{ general.contact.phone }}
+        </p>
       </div>
       <!-- Social Media Links -->
-      <div style="flex: 1 1 300px;">
-        <h3 style="color: #00bcd4;">Follow Us</h3>
+      <div class="footer-block-auto footer-block-common">
+        <h3>Follow Us</h3>
         <div>
           {% for link in general.social %}
-            <a href="{{- link[1] -}}" target="_blank" style="color: #fff;">{{ link[0] }}</a>
+            <div>
+              <i style="font-style:normal" class="{{ link[1].icon }}"></i>
+              <a href="{{- link[1].link -}}" target="_blank" class="footer-link">{{ link[0] }}</a>
+            </div>
           {% endfor %}
         </div>
       </div>
     </div>
     <!-- Copyright Section -->
-    <div style="text-align: center; margin-bottom: 10px;">
-      <span>&copy; 2025 {{ general.name.title }}. Generated from <a href="https://github.com/mhmdjouni/minimal-teams" style="color: white;">Minimal Teams</a>. Powered by <a href="https://jekyllrb.com/" style="color: white;">Jekyll</a>.</span>
+    <div class="footer-copyrights">
+      <span>
+        &copy; 2025 {{ general.name.title }}.
+        Generated from <a href="https://github.com/mhmdjouni/minimal-teams" class="footer-link">Minimal Teams</a>.
+        Powered by <a href="https://jekyllrb.com/" class="footer-link">Jekyll</a>.
+      </span>
     </div>
   </footer>
   
