@@ -12,20 +12,25 @@ contact:
   phone: "+00 (XX) AA BB CC DD"
 
 address:
-  building: "Building X"
+  building: "Building B"
   street: "Street S"
   city: "0000 City C"
   country: "Country"
   maps_link: https://www.google.com/maps
 
 social:
-  GitHub: https://github.com/mhmdjouni
+  GitHub:
+    link: https://github.com/mhmdjouni
+    icon: fab fa-fw fa-github
+  X (Twitter):
+    link: https://x.com/mhmdjouni
+    icon: fab fa-fw fa-x-twitter
 
 images_dirs:
-  root: assets/images
-  icons: assets/images/icons
-  logos: assets/images/logos
-  profile_pictures: assets/images/profile_pictures
+  root: images
+  logos: images/logos
+  banners: images/banners
+  profile_pictures: images/profile_pictures
 
-logo_path: assets/images/logos/blank.jpg
-banner_path: assets/images/banner.jpg
+logo_filename: default.jpg
+banner_filename: default.jpg

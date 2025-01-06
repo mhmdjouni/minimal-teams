@@ -46,16 +46,16 @@ members:
     category: *researcher
     role: *resEng
     affiliation: *uni
-    photo: blank.png
+    photo: 
     email: example@example.com
-    link:  https://www.example.com
+    link:  /members/
 
   - key: researcher
     name: Researcher Research
     category: *researcher
     role: *postdoc
     affiliation: *ins
-    photo: blank.png
+    photo: 
     email: example@example.com
     link: 
 
@@ -64,7 +64,7 @@ members:
     category: *researcher
     role: *postdoc
     affiliation: *comp
-    photo: blank.png
+    photo: 
     email: example@example.com
     link: https://www.example.com
 
@@ -73,7 +73,7 @@ members:
     category: *researcher
     role: *resAss
     affiliation: *ins
-    photo: blank.png
+    photo: 
     email: example@example.com
     link: 
 
@@ -82,7 +82,7 @@ members:
     category: *visitor
     role: *senVisRes
     affiliation: *sampleAff
-    photo: blank.png
+    photo: 
     email: example@example.com
     link: 
 
@@ -91,7 +91,7 @@ members:
     category: *student
     role: *intern
     affiliation: *sampleAff
-    photo: blank.png
+    photo: 
     email: example@example.com
     link: https://www.example.com
 

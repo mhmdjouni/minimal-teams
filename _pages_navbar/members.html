@@ -16,13 +16,14 @@ permalink: /members/
 {% assign category = members.categories | where: "order", group.name | first %}
 {% assign category_type = category.type %}
 {% assign members_cat = group.items %}
+
 <div class="category-header">
     {{- category_type -}}
 </div>
 <div class="members-list">
     {%- for member in members_cat -%}
     <div class="member-card">
-        {%- assign member_photo = member.photo | default: "blank.png" -%}
+        {%- assign member_photo = member.photo | default: "default.png" -%}
         <img src="{{- site.baseurl -}}/{{- pfp_dir -}}/{{- member_photo -}}" class="member-photo">
         <div class="member-info">
             <div class="member-name">
