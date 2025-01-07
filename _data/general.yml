@@ -8,16 +8,18 @@ name:
   title: SRD Group
 
 affiliations:
-  uga:
+  si1:
     name: Sample Institution 1
-    link: https://www.univ-grenoble-alpes.fr/
-  sampleAff:
+    abbrv: SI1
+    link: https://example.com
+  si2:
     name: Sample Institution 2
+    abbrv: SI2
     link: https://example.com
 
 description: >-
-  The Imaging Models and AI Guided Optimization Research (IMAGO) Research aims at developing
-    novel model-based and AI-driven approaches for computational imaging applications.
+  The Scientific Research and Development (SRD) Group aims at developing
+    novel scientific approaches for different applications.
 
 contact:
   email: srd-group [at] example.com
