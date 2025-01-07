@@ -7,9 +7,18 @@ title: Home
 permalink: /
 ---
 
+{%- assign general = site.data.general -%}
+{%- assign proj_name = general.name -%}
+{%- assign affiliations = general.affiliations -%}
+
 <p>
-    Our research group is affiliated with some institutions.
+    The {{ proj_name.full }} {{ proj_name.append }} is affiliated with
+    the <a href="{{- affiliations.si1.link -}}">{{ affiliations.si1.name }} ({{affiliations.si1.abbrv}})</a>
+    and
+    the <a href="{{- affiliations.si2.link -}}">{{ affiliations.si2.name }} ({{affiliations.si2.abbrv}})</a>.
+    It is funded by the {{ affiliations.si2.abbrv }}.
 </p>
+
 <h1>Research</h1>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia semper quam. Praesent non ultrices nulla.
@@ -17,6 +26,7 @@ permalink: /
     Pellentesque convallis in urna ac rutrum. Praesent dignissim lacus sit amet tortor efficitur facilisis.
     Nunc porta sem nec metus luctus maximus. Nam dui neque, ullamcorper in risus consequat, tempus pulvinar magna.
 </p>
+
 <h1>Research Topics</h1>
 <ul>
     <li>
