@@ -48,3 +48,7 @@ images_dirs:
 
 logo_filename: default.jpg
 banner_filename: default.jpg
+banner_carousel_images:
+  - "banner_01.jpg"
+  - "banner_02.jpg"
+  - "banner_03.jpg"
